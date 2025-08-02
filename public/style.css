@@ -1,0 +1,88 @@
+
+header {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+header nav a {
+    color: #ff8c00;
+    margin-top: 1%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    
+}
+
+header nav a:hover {
+    color: orange;
+}
+
+body {
+    background-color: #081705;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    
+}
+
+
+.main_page {
+    width: 50%;
+    min-width: 400px;
+    max-width: 650px;
+    color: #fceac2;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    margin: 0 auto;
+}
+body h1 {
+    color: orange;
+    font-size: 2cm;
+}
+
+body h1.evergreen {
+    color: greenyellow;
+}
+
+.link-dungen {
+    color: rgb(233, 41, 188);
+}
+a:hover.link-dungen {
+    color: rgb(249, 104, 179);
+}
+
+.link-coast {
+    color: rgb(77, 199, 255)
+}
+
+a:hover.link-coast {
+    color: rgb(15, 157, 223)
+}
+
+.roboto-mono-300-title {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+footer {
+    font-size: x-small;
+    color: darkgray;
+    
+    background-color: #030f05;
+    /*position: absolute;
+    bottom: 0;*/
+    margin-top: 40px;
+    /*margin-bottom: 15px;*/
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer a {
+    color: darkgray;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
