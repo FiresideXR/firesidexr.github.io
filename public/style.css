@@ -44,6 +44,14 @@ body h1.evergreen {
     color: greenyellow;
 }
 
+body p a {
+    color: rgb(32, 147, 40);
+}
+
+body p a:hover {
+    color: rgb(37, 196, 39);
+}
+
 .link-dungen {
     color: rgb(233, 41, 188);
 }
