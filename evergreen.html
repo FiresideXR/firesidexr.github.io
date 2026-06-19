@@ -25,7 +25,12 @@
 <p>
 We've named the backend of FiresideXR "Evergreen". 
 Evergreen allows for authenticated, moderated social XR without relying on any single server to remain active.
-Evergreen is built on top of <a href="https://libp2p.io/">libp2p</a>, the same technology behind IPFS and many other decentralized projects.
+Evergreen is built on top of <a href="https://www.iroh.computer/">Iroh</a>. A Rust library for elegant p2p connections.
+
+<!--
+    We previously were using libp2p, but this presented more overhead and boilerplate compared to Iroh. 
+    We also love Iroh's automatic reconnects and other features that reduce the amount code that we need to maintain.
+-->
 
 <b>Because nothing depends on a central backend, our servers can go offline without killing FiresideXR.</b>
 
